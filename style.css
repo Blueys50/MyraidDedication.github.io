@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.title{
+    color: red;
+    perspective: 1000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+  }
+  .menu {
+    width: 15%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(171, 171, 228); 
+    border: rgb(70, 87, 104);
+    border-style: solid;
+  }
+  .container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightpink; */
+    border: slategray;
+    border-style: solid;
+  }
+  .card {
+    transform-style: preserve-3d;
+    /* min-height: 80vh;
+    width: 35rem; */
+    height: 1160px;
+    width: 1161px;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    background-image: url("https://i.ibb.co/BPHMWfR/Ryzen-Minimalist.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .text {
+    padding:300px 0px 550px 200px;
+    height: 500px;
+    width: 800px;
+    /* background-color: sienna; */
+  }
+  .text p{
+    color: seashell;
+    font-family: 'Rancho', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-size: 200px;
+    max-height: max-content;
+    max-width: max-content;
+  }
+  .namee{
+    padding:0px 290px 0px 350px;
+    height: 100px;
+    width: 440px;
+    /* background-color: slategray; */
+  }
+
+  .namee p{
+    color: seashell;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
+    max-height: max-content;
+    max-width: max-content;
+  }
+  
