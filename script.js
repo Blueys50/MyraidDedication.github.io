@@ -2,8 +2,8 @@
 const card = document.querySelector(".card");
 const container = document.querySelector(".container");
 
-const title = document.querySelector(".text");
-const description = document.querySelector(".namee");
+const text = document.querySelector(".text");
+const namee = document.querySelector(".namee");
 
 document.getElementById("textFill").addEventListener("keyup", changeText);
 document.getElementById("nameFill").addEventListener("keyup", changeName);
@@ -28,8 +28,8 @@ container.addEventListener("mousemove", (e) => {
 container.addEventListener("mouseenter", (e) => {
   card.style.transition = "none";
   //Popout
-  text.style.transform = "translateZ(150px)";
-  namee.style.transform = "translateZ(125px)";
+  text.style.transform = "translateZ(300px)";
+  namee.style.transform = "translateZ(250px)";
 });
 //Animate Out
 container.addEventListener("mouseleave", (e) => {

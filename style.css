@@ -53,6 +53,7 @@
     height: 500px;
     width: 800px;
     /* background-color: sienna; */
+    transform-style: preserve-3d;
   }
   .text p{
     color: seashell;
@@ -67,6 +68,7 @@
     height: 100px;
     width: 440px;
     /* background-color: slategray; */
+    transform-style: preserve-3d;
   }
 
   .namee p{
@@ -75,5 +77,6 @@
     font-size: 100px;
     max-height: max-content;
     max-width: max-content;
+    transform-style: preserve-3d;
   }
   
